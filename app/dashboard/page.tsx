@@ -1,7 +1,8 @@
 import { Box, Container, Flex, Grid, GridItem } from '@chakra-ui/react'
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { Hero } from '../components/Hero';
+import Hero from '../components/Hero';
+import About from '../components/About';
 
 export default function Dashboard() {
   return (
@@ -9,6 +10,7 @@ export default function Dashboard() {
       <Header />
       <Container maxW='6xl' >
         <Hero />
+        <About />
       </Container>
       <Footer />
     </>
