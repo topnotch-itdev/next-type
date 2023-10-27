@@ -1,10 +1,10 @@
-import { Box, Container, Flex, List, ListIcon, ListItem } from "@chakra-ui/react";
+import { Box, Grid, List, ListItem } from "@chakra-ui/react";
 
 export default function Footer() {
   return (
     <>
       <footer>
-        <Flex px="8">
+        <Grid p={20} background='GrayText' color='white' templateColumns='repeat(4, 1fr)' gap={6}>
           <Box>
             <List spacing={2}>
               <ListItem>
@@ -57,7 +57,7 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-        </Flex>
+        </Grid>
       </footer>
     </>
   )
