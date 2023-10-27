@@ -10,7 +10,7 @@ export default function Portfolio() {
         <Heading as='h2' size='2xl' textAlign={'center'} mt={10}>
           My portfolio
         </Heading>
-        <Grid templateColumns='repeat(3, 1fr)' gap='10' py={20}>
+        <Grid templateColumns={{base: 'repeat(1, 1fr)', lg: 'repeat(3, 1fr)'}} gap='10' py={20}>
           <GridItem>
             <Box boxShadow='lg' p='6' rounded='md' bg='white'>
               <Image src='/images/about.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
