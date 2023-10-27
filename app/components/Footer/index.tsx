@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <Grid p={20} background='GrayText' color='white' templateColumns='repeat(4, 1fr)' gap={6}>
+        <Grid p={20} background='GrayText' color='white' templateColumns={{base: 'repeat(1, 1fr)', lg: 'repeat(4, 1fr)'}} gap={6}>
           <Box>
             <List spacing={2}>
               <ListItem>
