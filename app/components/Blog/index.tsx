@@ -12,9 +12,9 @@ export default function Blog() {
         </Heading>
         <Grid templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(3, 1fr)' }} gap='10' py={20}>
           <GridItem>
-            <Box boxShadow='lg' p='6' rounded='md' bg='white'>
+            <Box rounded='md'>
               <Image src='/images/blog1.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
-              <Text as='p' size='md' mt={2} color='blue'>
+              <Text as='p' size='md' mt={8} color='blue'>
                 17.9.2022
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
@@ -23,13 +23,13 @@ export default function Blog() {
               <Text mt={6} >
                 There are many variations of passages of Lorem Ips but the majority have suffered alteration in somehoi by injected humour, or randomised words.
               </Text>
-
+              <Text mt={6} textTransform={'uppercase'} fontWeight={'bold'}>Read More</Text>
             </Box>
           </GridItem>
           <GridItem>
-            <Box boxShadow='lg' p='6' rounded='md' bg='white'>
+            <Box rounded='md'>
               <Image src='/images/blog2.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
-              <Text as='p' size='md' mt={2} color='blue'>
+              <Text as='p' size='md' mt={8} color='blue'>
                 17.9.2022
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
@@ -38,12 +38,13 @@ export default function Blog() {
               <Text mt={6} >
                 There are many variations of passages of Lorem Ips but the majority have suffered alteration in somehoi by injected humour, or randomised words.
               </Text>
+              <Text mt={6} textTransform={'uppercase'} fontWeight={'bold'}>Read More</Text>
             </Box>
           </GridItem>
           <GridItem>
-            <Box boxShadow='lg' p='6' rounded='md' bg='white'>
+            <Box rounded='md'>
               <Image src='/images/blog3.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
-              <Text as='p' size='md' mt={2} color='blue'>
+              <Text as='p' size='md' mt={8} color='blue'>
                 17.9.2022
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
@@ -52,6 +53,7 @@ export default function Blog() {
               <Text mt={6} >
                 There are many variations of passages of Lorem Ips but the majority have suffered alteration in somehoi by injected humour, or randomised words.
               </Text>
+              <Text mt={6} textTransform={'uppercase'} fontWeight={'bold'}>Read More</Text>
             </Box>
           </GridItem>
         </Grid>
