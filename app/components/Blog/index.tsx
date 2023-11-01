@@ -15,7 +15,7 @@ export default function Blog() {
             <Box rounded='md'>
               <Image src='/images/blog1.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
               <Text as='p' size='md' mt={8} color='blue'>
-                17.9.2022
+                17.9.2023
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
                 Frequently Asked Questions About Design
@@ -30,7 +30,7 @@ export default function Blog() {
             <Box rounded='md'>
               <Image src='/images/blog2.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
               <Text as='p' size='md' mt={8} color='blue'>
-                17.9.2022
+                17.10.2023
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
                 We've Ever Heard About Design
@@ -45,7 +45,7 @@ export default function Blog() {
             <Box rounded='md'>
               <Image src='/images/blog3.jpg' borderRadius={10} w='100%' h='auto' objectFit='cover' alt='Hero' />
               <Text as='p' size='md' mt={8} color='blue'>
-                17.9.2022
+                17.9.2023
               </Text>
               <Heading as='h4' size='md' color='black' mt={4}>
                 Communities About Design You Should Join
