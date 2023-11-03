@@ -1,4 +1,10 @@
+"use client";
 import { Box, Button, Grid, GridItem, Heading, Image, Input, Stack, Text } from "@chakra-ui/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Pagination } from 'swiper/modules';
 
 export default function Newsletter() {
   return (
@@ -18,12 +24,29 @@ export default function Newsletter() {
               size='md'
               colorScheme='messenger'
               textTransform={"uppercase"}>
-                subscribe
+              subscribe
             </Button>
           </Stack>
         </Box>
-        <Box height={200}>
-
+        <Box height={'auto'} my={20}>
+          <Swiper
+            pagination={{
+              dynamicBullets: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+            width={400}
+          >
+            <SwiperSlide>
+              <Image src='/images/blog1.jpg' h='auto' objectFit='cover' alt='Blog' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src='/images/blog2.jpg' h='auto' objectFit='cover' alt='Blog' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src='/images/blog3.jpg' h='auto' objectFit='cover' alt='Blog' />
+            </SwiperSlide>
+          </Swiper>
         </Box>
       </Box >
     </>
