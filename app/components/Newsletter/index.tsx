@@ -36,6 +36,7 @@ export default function Newsletter() {
             modules={[Pagination]}
             className="mySwiper"
             width={400}
+            rewind={true}
           >
             <SwiperSlide>
               <Image src='/images/blog1.jpg' h='auto' objectFit='cover' alt='Blog' />
