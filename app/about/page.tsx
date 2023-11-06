@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Blog from '../components/Blog';
 import Breadcrumb from '../components/Breadcrumb';
 
-export default function Dashboard() {
+export default function About() {
   return (
     <>
       <Header />
