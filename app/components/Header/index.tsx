@@ -5,7 +5,7 @@ import { Link } from '@chakra-ui/react'
 export default function Header() {
   return (
     <header>
-      <Flex px={{ base: 4, lg: 8 }} py='4'>
+      <Flex px={{ base: 4, lg: 8 }} py='6'>
         <Box>
           <Image src='/images/logo.png' width={{ base: 50, md: 20, lg: 20 }} h='auto' objectFit='cover' alt='Logo' />
         </Box>
