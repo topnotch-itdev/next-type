@@ -8,7 +8,7 @@ export default function Breadcrumb({ title }: { title: string }) {
           { title }
         </Heading>
         <Heading as='h3' size='md' mt={20} mb={40} color='blue' textAlign={'center'} textTransform={"uppercase"}>
-          Home // { title }
+          Home / { title }
         </Heading>
       </Box>
     </>
